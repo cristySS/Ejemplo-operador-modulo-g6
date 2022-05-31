@@ -1,3 +1,15 @@
+/*
+ * lectura de botones
+ * Por: Cristina sanchez
+ * Fecha: 13 de abril de 2022
+ * 
+ * este programa muestra las instrucciones basicas 
+ * para la lectura de botones y el encendido de leds
+ */
+
+//Bibliotecas
+
+
 //Constantes
 const int BOTON1 = 4;
 const int LED1 = 2; //ocupa un pin digital
@@ -28,3 +40,5 @@ void loop() {
   digitalWrite (LED1, dato1);
   
 }
+
+//fin de void loop
